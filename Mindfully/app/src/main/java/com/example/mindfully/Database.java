@@ -1,7 +1,6 @@
 package com.example.codeabode;
 
 import java.util.Scanner;
-import java.util.*;
 import java.io.*;
 
 public class Database {
@@ -39,7 +38,6 @@ public class Database {
     public static void main(String[] args) {
         createNewPerson("Cannon");
         addEmotionToPerson("Cannon", "anger", "1570901375");
-        System.out.println(getEmotionList("Cannon"));
     }
 
     public static void createFile(String path) {
